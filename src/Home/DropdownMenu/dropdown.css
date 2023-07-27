@@ -1,79 +1,78 @@
-.outlook{
-    display: flex;
-    flex-direction: column; 
-    background-color: white;
-    
+.outlook {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
-.outlook--animation{
-    animation: translate 0.5s;
+.outlook--animation {
+  animation: translate 0.5s;
 }
 
 @keyframes translate {
-    from {
-        transform: translateY(-20px); 
-    }
-    to{
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
-.button--go-cart{
-    background-color: #33006F; 
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 13px;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 190px;
-  } 
-
-.cart-items{
-    position: absolute;
-    top: 85%; 
-    right: -8px; 
-    width: 200px; 
-    padding: 15px;
-    border-radius: 15px;
-    background-color: white;
-    /* border: 1px solid gray;  */
-    border: none; 
-    z-index: 99;
+.button--go-cart {
+  background-color: #33006f;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 190px;
 }
 
-.cart-items::before{
-    content: '';
-    position: absolute;
-    top: -4px; 
-    right: 23px; 
-    width: 10px; 
-    height: 10px;
-    transform: rotate(45deg);
-    background-color: white;
+.cart-items {
+  position: absolute;
+  top: 85%;
+  right: -8px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  /* border: 1px solid gray;  */
+  border: none;
+  z-index: 99;
 }
 
-.empty-cart{
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
+.cart-items::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 23px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: white;
 }
 
-.button--go-home{
-    background-color: #33006F; 
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 13px;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 190px;
+.empty-cart {
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.button--go-home {
+  background-color: #33006f;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 190px;
 }

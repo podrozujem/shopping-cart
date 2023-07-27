@@ -1,11 +1,11 @@
-.search__input{
-    width: 80%;
-    height: 25px;
-    font-size: 18px;
-    border-radius: 10px;
+.search__input {
+  width: 80%;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
-.search{
+.search {
   text-align: center;
 }
 
