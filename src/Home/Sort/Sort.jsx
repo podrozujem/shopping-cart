@@ -7,11 +7,19 @@ const Sort = ({ sort }) => {
   return (
     <>
       <div className='sort-container'>
-        <div className='button button--sort'>
-          <button onClick={sort.sortByPriceAsc}>Price ↑</button>
-          <button onClick={sort.sortByPriceDsc}>Price ↓</button>
-          <button onClick={sort.sortByTitleAsc}>Title ↑</button>
-          <button onClick={sort.sortByTitleDsc}>Title ↓</button>
+        <div className='sort__buttons'>
+          <div className='button button--sort'>
+            <button onClick={sort.sortByPriceAsc}>Price ↑</button>
+          </div>
+          <div className='button button--sort'>
+            <button onClick={sort.sortByPriceDsc}>Price ↓</button>
+          </div>
+          <div className='button button--sort'>
+            <button onClick={sort.sortByTitleAsc}>Title ↑</button>
+          </div>
+          <div className='button button--sort'>
+            <button onClick={sort.sortByTitleDsc}>Title ↓</button>
+          </div>
         </div>
       </div>
     </>

@@ -1,26 +1,41 @@
 .sort-container {
   display: flex;
+  justify-content: space-evenly;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 @media screen and (min-width: 992px) {
   .sort-container {
     display: flex;
-    /* margin-left: 180px; */
+    justify-content: flex-end;
+    margin-right: 160px;
     margin-top: 15px;
     margin-bottom: 20px;
   }
 }
 
+.sort__buttons {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .sort__buttons {
+    gap: 5px;
+  }
+}
+
 .button--sort {
-  margin-left: auto;
-  margin-right: 40px;
+  /* margin-left: auto;
+  margin-right: 40px; */
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 @media screen and (min-width: 992px) {
   .button--sort {
-    margin-right: 160px;
+    /* margin-right: 160px; */
   }
 }
 
