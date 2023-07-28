@@ -1,9 +1,5 @@
 .sort-container {
   display: flex;
-  /* margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 150px;
-    margin-left: 150px; */
 }
 
 @media screen and (min-width: 992px) {
@@ -13,24 +9,19 @@
     margin-top: 15px;
     margin-bottom: 20px;
   }
-
-  .button--sort {
-    margin-left: auto;
-    margin-right: 70px;
-  }
-
-  button {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 10px;
-  }
 }
 
 .button--sort {
   margin-left: auto;
-  margin-right: 170px;
+  margin-right: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .button--sort {
+    margin-right: 160px;
+  }
 }
 
 button {

@@ -8,10 +8,10 @@ const Sort = ({ sort }) => {
     <>
       <div className='sort-container'>
         <div className='button button--sort'>
-          <button onClick={sort.sortByPriceAsc}>Price asc</button>
-          <button onClick={sort.sortByPriceDsc}>Price dsc</button>
-          <button onClick={sort.sortByTitleAsc}>Title asc</button>
-          <button onClick={sort.sortByTitleDsc}>Title dsc</button>
+          <button onClick={sort.sortByPriceAsc}>Price ↑</button>
+          <button onClick={sort.sortByPriceDsc}>Price ↓</button>
+          <button onClick={sort.sortByTitleAsc}>Title ↑</button>
+          <button onClick={sort.sortByTitleDsc}>Title ↓</button>
         </div>
       </div>
     </>
