@@ -1,4 +1,4 @@
-.sort-container {
+.sort {
   display: flex;
   justify-content: space-evenly;
   margin-right: 0px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .sort-container {
+  .sort {
     display: flex;
     justify-content: flex-end;
     margin-right: 160px;
@@ -31,12 +31,6 @@
   margin-right: 40px; */
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-@media screen and (min-width: 992px) {
-  .button--sort {
-    /* margin-right: 160px; */
-  }
 }
 
 button {

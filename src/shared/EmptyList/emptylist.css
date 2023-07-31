@@ -1,9 +1,9 @@
-.emptyList-wrap {
+.empty-list {
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
-.emptyList-wrap img {
+.empty-list__img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.empty-text {
+.empty-list__text {
   text-align: center;
   font-size: 20px;
 }

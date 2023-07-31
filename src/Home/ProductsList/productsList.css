@@ -1,4 +1,4 @@
-.blog-list {
+.products-list {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 50px;
@@ -7,7 +7,7 @@
 }
 
 @media (min-width: 992px) {
-  .blog-list {
+  .products-list {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1100px;
   }
@@ -16,7 +16,4 @@
 .loading {
   display: block;
   text-align: center;
-}
-
-.sort {
 }

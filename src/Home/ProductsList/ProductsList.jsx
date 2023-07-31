@@ -3,8 +3,10 @@ import axios from 'axios';
 import ProductItem from './ProductItem/ProductItem';
 import Search from '../Search/Search';
 import Sort from '../Sort/Sort';
-import './productslist.css';
-import loading_logo from '../../images/Loading_icon.gif';
+
+import loadingLogo from '../../assets/images/loading-icon.gif';
+
+import './productsList.css';
 
 const ProductsList = () => {
   const [data, setData] = useState([]);
@@ -91,8 +93,8 @@ const ProductsList = () => {
   };
 
   let content = (
-    <div className='loading'>
-      <img src={loading_logo} alt='loading'></img>
+    <div className="loading">
+      <img src={loadingLogo} alt="loading"></img>
     </div>
   );
 
@@ -103,11 +105,8 @@ const ProductsList = () => {
       content = (
         <>
           <Search keyword={handleKeyword} />
-          <Sort
-            clasName='sort'
-            sort={{ sortByPriceAsc, sortByPriceDsc, sortByTitleAsc, sortByTitleDsc }}
-          />
-          <div className='blog-list'>
+          <Sort clasName="sort" sort={{ sortByPriceAsc, sortByPriceDsc, sortByTitleAsc, sortByTitleDsc }} />
+          <div className="products-list">
             {searchedProducts.map((data, index) => (
               <ProductItem product={data} key={index} />
             ))}

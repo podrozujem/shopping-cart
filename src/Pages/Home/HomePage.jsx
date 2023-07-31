@@ -1,9 +1,9 @@
 import React from 'react';
-import ProductsList from '../../Home/ProductsList/ProductsList';
-import './home.css';
 import { useSelector } from 'react-redux';
 
-const Home = () => {
+import ProductsList from '../../Home/ProductsList/ProductsList';
+
+const HomePage = () => {
   const { isDropdownOpen } = useSelector((state) => state.dropdown);
 
   return (
@@ -13,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

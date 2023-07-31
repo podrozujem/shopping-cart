@@ -1,0 +1,43 @@
+.button {
+  border: none;
+  outline: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button--remove {
+  background: none;
+  color: red;
+  font-size: 18px;
+}
+
+.button--minus,
+.button--plus {
+  background-color: #800080;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 40%;
+  height: 40%;
+}
+
+.button--go-cart {
+  background-color: #33006f;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  margin: auto;
+  border-radius: 5px;
+  width: 190px;
+}

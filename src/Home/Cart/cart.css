@@ -20,14 +20,14 @@
   margin-top: 10px;
 }
 
-.cart-list__total_number,
-.cart-list__total_word {
+.cart-list__total-number,
+.cart-list__total-word {
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.cart-list__total_number {
+.cart-list__total-number {
   text-align: right;
   color: #33006f;
 }

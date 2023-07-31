@@ -1,12 +1,19 @@
-.search__input {
-  width: 90%;
-  height: 25px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
 .search {
   text-align: center;
+}
+
+.search__input {
+  outline: none;
+  width: 90%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid;
+  color: #800080;
+}
+
+.search__input::placeholder {
+  color: #ff87ff;
 }
 
 @media (min-width: 992px) {

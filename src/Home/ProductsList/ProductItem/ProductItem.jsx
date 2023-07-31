@@ -1,38 +1,39 @@
 import React from 'react';
-import './productitem.css';
-import { addToCart } from '../../../redux/actions/cartActions';
 import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
+
+import { addToCart } from '../../../redux/actions/cartActions';
+
+import './productitem.css';
 
 const ProductItem = ({ product }) => {
-  const { cartItems } = useSelector((state) => state.cart);
-  const quantity = 0;
-  const { id, title, price, description, image } = product;
+  const { title, price, description, image } = product;
   const dispatch = useDispatch();
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
   };
   return (
-    <div className='blog-item'>
-      <img className='blog-item__img' src={image} alt='img' />
+    <div className="product-item">
+      <img className="product-item__img" src={image} alt="img" />
       {/* <table>
         <tbody>
           <tr>
-            <td className='blog-item__title'>{title}</td>
-            <td className='blog-item__price'>{price}$</td>
+            <td className='product-item__title'>{title}</td>
+            <td className='product-item__price'>{price}$</td>
           </tr>
         </tbody>
       </table>
-      <p className='blog-item__description'>{description}</p> */}
+      <p className='product-item__description'>{description}</p> */}
 
-      <div className='blog-item__details'>
-        <div className='blog-item__title'>{title}</div>
-        <div className='blog-item__price'>{price}$</div>
+      <div className="product-item__details">
+        <div className="product-item__title">{title}</div>
+        <div className="product-item__price">{price}$</div>
       </div>
-      <p className='blog-item__description'>{description}</p>
-      <div className='button'>
-        <button className='button button--add' onClick={() => handleAddToCart(product)}>
+
+      <p className="product-item__description">{description}</p>
+
+      <div className="button">
+        <button className="button button--add" onClick={() => handleAddToCart(product)}>
           Add to Cart
         </button>
       </div>
