@@ -19,8 +19,8 @@
 
 .cart-items {
   position: absolute;
-  top: 85%;
-  right: -8px;
+  top: 93%;
+  right: -1px;
   width: 200px;
   padding: 15px;
   border-radius: 15px;
@@ -34,7 +34,7 @@
   content: '';
   position: absolute;
   top: -4px;
-  right: 23px;
+  right: 31px;
   width: 10px;
   height: 10px;
   transform: rotate(45deg);
