@@ -16,6 +16,15 @@
   padding: 20px;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
 .navigation__button {
   font-size: 20px;
   color: white;
@@ -51,4 +60,15 @@
   height: 12px;
   text-align: center;
   line-height: 12px;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+  margin-top: 8px;
 }
