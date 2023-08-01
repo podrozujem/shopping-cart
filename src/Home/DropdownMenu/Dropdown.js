@@ -1,6 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import Button from '../../shared/Button/Button';
+
 import DropdownElement from './DropdownElement/DropdownElement';
 
 import './dropdown.css';
@@ -20,12 +22,10 @@ const Dropdown = ({ cartItems, openCart }) => {
     <div className={`${openCart ? 'outlook cart-items outlook--animation' : 'outlook cart-items'}`}>
       {!cartItems.length ? (
         <div>
-          <div className="empty-cart">Your cart is empty.</div>
+          <div className='empty-cart'>Your cart is empty.</div>
 
           <div>
-            <button onClick={navigateHome} className="button--go-home">
-              Add items
-            </button>
+            <Button onClick={navigateHome} className='button--go-home' textContent='Add items' />
           </div>
         </div>
       ) : (
@@ -35,9 +35,11 @@ const Dropdown = ({ cartItems, openCart }) => {
           ))}
 
           <div>
-            <button onClick={navigateToCart} className="button--go-cart">
-              Go to Checkout
-            </button>
+            <Button
+              onClick={navigateToCart}
+              className='button--go-cart'
+              textContent='Go to Checkout'
+            />
           </div>
         </div>
       )}

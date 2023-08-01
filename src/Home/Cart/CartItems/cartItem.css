@@ -58,7 +58,7 @@
 .cart-item__quantity {
   padding-left: 8px;
   padding-right: 8px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 992px) {

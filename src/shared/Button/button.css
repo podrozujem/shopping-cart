@@ -3,6 +3,8 @@
   outline: none;
   transition: 0.2s ease;
   cursor: pointer;
+  margin: auto 0 0;
+  text-align: center;
 }
 
 .button:hover {
@@ -13,6 +15,8 @@
   background: none;
   color: red;
   font-size: 18px;
+  margin-top: 10px;
+  align-items: center;
 }
 
 .button--minus,
@@ -37,7 +41,34 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 13px;
-  margin: auto;
+  margin-right: 10px;
   border-radius: 5px;
-  width: 190px;
+  width: 170px;
+}
+
+.button--go-home {
+  background-color: #33006f;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 170px;
+}
+
+.button--add {
+  background-color: #800080;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 80%;
 }

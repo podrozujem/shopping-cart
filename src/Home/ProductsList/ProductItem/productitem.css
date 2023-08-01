@@ -26,24 +26,10 @@
   padding: 0 30px;
 }
 
-.button {
+/* .button {
   margin: auto 0 0;
   text-align: center;
-}
-
-.button--add {
-  background-color: #800080;
-  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 13px;
-  cursor: pointer;
-  border-radius: 8px;
-  width: 80%;
-}
+} */
 
 .product-item__details {
   display: flex;

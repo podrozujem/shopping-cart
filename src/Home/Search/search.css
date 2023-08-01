@@ -13,7 +13,7 @@
 }
 
 .search__input::placeholder {
-  color: #ff87ff;
+  color: #800080;
 }
 
 @media (min-width: 992px) {
